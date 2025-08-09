@@ -6,6 +6,8 @@ public class BookingDto {
 
 	    private Date date;
 
+		private String name;
+
 	    private String status;
 
 	    private Long customerId; // Reference only, not full Customer object
